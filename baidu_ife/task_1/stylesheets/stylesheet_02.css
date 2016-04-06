@@ -1,0 +1,40 @@
+body{
+	padding: 20px;
+	margin: 0px;
+}
+.main{
+	background-color: #eee;
+	overflow: auto;
+	border:1px solid #999;
+}
+.left,.right,.info{
+	background-color: #FFF;
+	border:1px solid #999;
+	margin: 20px;
+}
+.left{
+	float: left;
+	width: 200px;
+}
+.right{
+	float: right;
+	width: 120px;
+	margin: 20px;
+}
+.info {
+	margin-left: 240px;
+	margin-right: 160px;
+	padding: 20px;
+}
+.left img{
+	float: left;
+	padding: 20px;
+}
+.left p{
+	float: left;
+	padding-top: 20px;
+}
+.right img{
+	margin: 20px;
+	border:1px solid;
+}
