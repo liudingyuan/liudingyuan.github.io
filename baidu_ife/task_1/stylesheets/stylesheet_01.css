@@ -80,19 +80,18 @@ aside #content .input_name label {
 aside #content .error{
 	margin-left: 30%;
 }
-aside #submit{
-    width: 100%;
+#submit{
+	border:0;
+	width: 90%;
 	height: 40px;
+	background-color: #4169E1;
+	color: #fff;
+	font-size: 20px;
 	border-radius: 10px;
-	background-color: #4169E1;
-	text-align: center;
 }
-aside #submit input {
-	background-color: #4169E1;
-	border:none;
-	padding: 10px;
-	font-size: 15px;
-	color: #FFF;
+#submit:hover{
+	font-weight: bold;
+	cursor: pointer;
 }
 
 footer {
