@@ -39,34 +39,6 @@ header {
 body {
 	background-color:#C0C0C0;
 }
-
-article {
-	float: left;
-	width: 60%;
-	margin: 20px;
-	background-color: #FFF;
-	padding: 30px;
-}
-article table {
-	width: 100%;
-	border-spacing:0;
-}
-article table thead {
-	text-align: left;
-	background-color: #333;
-	color: #FFF;
-}
-article table tfoot {
-	background-color: #C0C0C0;
-}
-article table th,td {
-		border:1px solid #C0C0C0;
-		text-indent: 0.5em;		
-} 
-.clearfix {
-	clear: both;
-}
-
 aside{
 	width: 360px;
 	float: right;
@@ -89,6 +61,33 @@ aside{
 	font-size: 16px;
     color: #fff;
     font-family:SimHei; 
+}
+#main{
+	margin-right: 425px;
+}
+article {
+	float: left;
+    margin: 20px;
+	background-color: #FFF;
+	padding: 30px;
+}
+article table {
+	border-spacing:0;
+}
+article table thead {
+	text-align: left;
+	background-color: #333;
+	color: #FFF;
+}
+article table tfoot {
+	background-color: #C0C0C0;
+}
+article table th,td {
+		border:1px solid #C0C0C0;
+		text-indent: 0.5em;		
+} 
+.clearfix {
+	clear: both;
 }
 
 footer {
