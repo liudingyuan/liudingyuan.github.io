@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "Mirosoft YaiHei";	
+}
+html{
+	min-width: 1280px;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix{
+	content: " ";
+	display: block;
+	clear: both;
+}
+#container_header{
+    width: 1180px;
+    margin: 0px auto;
+}
+#logo{
+	width: 110px;
+	float: left;
+	margin: 12px 0;
+}
+#logo_img{
+	float: left;
+}
+#logo_text{
+	font-family:"SimHei";
+	font-size: 21px;
+	text-decoration: none;
+	color: #000;
+	padding-left: 10px;
+}
+#signin{
+	width: 60px;
+	margin: 15px 0;
+	float: right;
+	padding-left: 10px;
+}
+#signin a{
+	text-decoration: none;
+	color: #e74f4d;
+}
+#signin_img{
+	float: left;
+	margin-right: 5px;
+}
+#nav{
+	float: right;
+}
+#nav li{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#nav a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #393a3a;
+}
+#nav li:hover{
+	color: #e74f4d;
+	border-bottom: 3px solid #e74f4d;
+}
+
+#jumbotron{
+	height: 700px;
+	background: url(imgs/newlife1.png) no-repeat center;
+	position: relative;
+}
+#container_jumbotron{
+	position: absolute;
+	height: 260px;
+	top: 180px;
+	left: 120px;
+}
+#container_jumbotron p:nth-child(1){
+	font-size: 60px;
+	color: #fff;
+}
+#container_jumbotron p:nth-child(2){
+	width: 300px;
+	margin-top: 15px;
+	font-size: 21px;
+	color: #fff;
+}
+#container_jumbotron div{
+	width: 331px;
+	height: 65px;
+	margin-top: 70px;
+	background-color: #e74f4d;
+	position: relative;
+}
+#container_jumbotron a{
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	margin: 10px 100px;
+}
+#container_info{
+	height: 250px;
+	text-align: center;
+}
+.info_item{
+	float: left;
+	width: 320px;
+	margin-top: 40px;
+	
+}
+.info_item p{
+	height: 50px;
+	font-size: 14px;
+	color: #767777;
+	margin-top: 40px;
+}
+.item1 p,.item2 p,.item3 p{
+    border-right: 1px solid #767777;
+}
+
+#question{
+	background-color: #EDEDEC;
+}
+#container_question{
+	padding:79px 212px;
+	text-align: center;
+}
+#container_question p{
+	font-size: 50px;
+	color: #A1A1A1;
+	margin-top: 30px; 
+}
+
+#city{
+	height: 340px;
+	background: url(imgs/city.png) no-repeat center;
+}
+#container_city{
+	background-color: #EED6D6;
+}
+
+#active{
+	background-color: #F7F7F7;
+}
+#container_active{
+    width: 960px;
+    padding: 100px 150px;
+}
+.active_pic{
+	float: left;
+	width: 220px;
+	text-align: center;
+	margin-right: 20px;
+}
+.active_pic img{
+	border:10px solid #fff;
+}
+.gray{
+	color: #A1A1A1;
+}
+.pic2 span{
+	font-size: 21px;
+	letter-spacing: 30px;
+}
+
+.beijing_pic{
+	float: left;
+	text-align: center;
+}
+.center_text{
+	width: 370px;
+	margin: 120px auto;
+}
+.center_text p{
+	line-height: 100px;
+}
+.center_text p:nth-child(1){
+	font-size: 50px;
+	color: #fff;
+}
+.center_text p:nth-child(2){
+	font-size: 158px;
+	color: #fff;
+}
+.center_text p:nth-child(3){
+	font-size: 22px;
+	color: #fff;
+	line-height: 80px;
+}
+.center_text p:nth-child(4){
+	font-size: 22px;
+	color: #fff;
+	line-height: 20px;
+}
+.beijing_pic{
+	width: 850px;
+	height: 570px;
+	background: url(imgs/newlife_beijing.png) no-repeat center;
+}
+.beijing_pic img{
+	float: right;
+}
+.beijing_text{
+	float: left;
+	width: 400px;
+	margin-top: 150px;
+	line-height: 50px;
+}
+.center{
+	text-align: center;
+}
+.beijing_text p:nth-child(1){
+	font-size: 22px;
+}
+.beijing_text p:nth-child(2){
+	font-size: 12px;
+	color: #aaa;
+	line-height: 30px;
+	padding: 0 50px;
+}
+.beijing_text span{
+	color: #e74f4d;
+}
+.beijing_text a{
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid #e74f4d;
+	color: #e74f4d;
+	margin-left: 145px;
+}
+
+.newtime_item{
+    width: 426px;
+	height: 520px;
+	float: left;
+	text-align: center;
+	font-size: 21px;
+	font-family: "SimHei";
+}
+.newtime_item1{
+	background-color: #e7504d;
+}
+.newtime_item1 p{
+	color: #fff;
+	line-height: 30px;
+}
+.newtime_item1 img,.newtime_item2 img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.newtime_item1 a{
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #fff;
+	padding: 5px 25px;
+}
+.newtime_item2 p{
+	line-height: 30px;
+}
+.newtime_item2 a{
+	text-decoration: none;
+	color: #e7504d;
+	border:1px solid #e7504d;
+	padding: 5px 25px;
+}
+.newtime_item3{
+	background: url(imgs/newtime.png) no-repeat center;
+}
+.newtime_center{
+	margin-top: 170px;
+}
+
+#volunteer_info{
+	width: 560px;
+	margin: 120px auto;
+	text-align: center;
+}
+#volunteer_info p:nth-child(1){
+	font-size: 21px;
+	font-family: "SimHei";
+}
+#volunteer_info p:nth-child(n+3){
+	font-size: 12px;
+	color: #aaa;
+}
+#volunteer_input{
+	margin-left: 130px;
+	margin-bottom: 150px;
+}
+#volunteer_input_left{
+	float: left;
+}
+.volunteer_rule{
+	width: 385px;
+	margin-bottom: 40px;
+}
+.link_more{
+	float: right;
+}
+.link_more a{
+	text-decoration: none;
+}
+
+#volunteer_form{
+	width: 625px;
+	float: left;
+	margin-left: 70px;
+}
+input[type="text"]{
+	width: 300px;
+	height: 40px;
+	text-indent: 20px;
+	border: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #EDEDEE;
+}
+textarea{
+	width: 617px;
+	height: 103px;
+	text-indent: 20px;
+	border: none;
+	resize: none;
+	background-color: #EDEDEE;
+}
+input[type="submit"]{
+	width: 617px;
+	height: 40px;
+	border:0;
+	background-color: #EDEDEE;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px; 
+}
+
+#contact{
+	height: 350px;
+	background-color: #32363E;
+	text-align: center;
+}
+#contact_text{
+	padding-top: 80px;
+}
+#contact p{
+	color: #fff;
+}
+#contact p:nth-child(1){
+	font-size: 21px;
+}
+#contact p:nth-child(2){
+	font-size: 12px;
+	padding: 10px 405px 20px 405px;
+}
+#contact_input{
+	padding-left: 400px;
+	padding-top: 10px;
+}
+#contact_email{
+	width: 420px;
+	margin: 0px;
+	float: left;
+}
+#contact_submit{
+	width: 80px;
+	color: #fff;
+	margin: 0px;
+	font-size: 15px;
+	background-color: #6F7178;
+	float: left;
+}
+#contact ul{
+	margin-top: 30px;
+}
+#contact ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+footer{
+	background-color: #2F2F38;
+	color: #fff;
+	font-size: 12px;
+}
+#foot{
+	padding: 20px 0;
+}
+#foot p{
+    float: left;
+    margin-left: 100px;
+    margin-right: 1000px;
+}
+#foot a{
+	text-decoration: none;
+	color: #fff;
+}
